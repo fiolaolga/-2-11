@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    color: #000711;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.img_mann{
+    width: 308px;
+    height: 190px;
+}
+
+.img_note_big{
+    width: 196px;
+    height: 190px;
+}
+ .img_flowers{
+    width: 196px;
+    height: 190px;
+ }
+.img_bridge{
+    width: 196px;
+    height: 190px;
+}
+.img_note_small{
+    width: 304px;
+    height: 190px;
+}
+
+.img_sun{
+    width: 196px;
+    height: 190px;
+}
+
+.img_rose{
+    width: 196px;
+    height: 400px;
+}
+.h1{
+    font-size: 25px;
+    font-weight: 400;
+}
+.container{
+    margin: 0 auto;
+}
+
+.wrapper{
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.header{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #F7F1D9;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.sidebar{
+    display: flex;
+    background: #3277EE;
+    justify-content: center;
+    align-items: center;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.content{
+    display: grid;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background: #EEEAE7;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 20px;
+
+}
+
+.image_wrapper{
+    display: grid;
+    padding-top: 50px;
+    padding: 50px;
+    grid-column-start: 2;
+    grid-column-end: 11;
+    grid-template: repeat(2,1fr) / repeat(9,1fr);
+    gap: 20px;
+}
+
+.img_mann{
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.img_note_big{
+    grid-row-start: 1;
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+.img_flowers{
+    grid-row-start: 1;
+    grid-column-start: 6;
+    grid-column-end: 8;
+}
+
+.img_rose{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 8;
+    grid-column-end: 10;
+}
+
+.img_bridge{
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.img_note_small{
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
+
+.img_sun{
+    grid-row-start: 2;
+    grid-column-start: 6;
+    grid-column-end: 8;
+}
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background:#000711 ;
+    color: #EEEAE7 ;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
